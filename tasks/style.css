@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 20px;
+    height: 80%;
+    background-color: wheat;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    color: brown;
+}
+
+.firstSec{
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+
+p{
+    color: brown;
+    margin: 10px 0;
+}
